@@ -1,5 +1,5 @@
 ARG TAG="20190220"
-ARG CONTENTIMAGE1="huggla/php-fpm:$TAG"
+ARG CONTENTIMAGE1="huggla/php-fpm"
 ARG CONTENTSOURCE1="/php"
 
 #--------Generic template (don't edit)--------
