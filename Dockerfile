@@ -1,4 +1,6 @@
 ARG TAG="20190220"
+ARG CONTENTIMAGE1="huggla/php-fpm:$TAG"
+ARG CONTENTSOURCE1="/php"
 
 #--------Generic template (don't edit)--------
 FROM ${CONTENTIMAGE1:-scratch} as content1
