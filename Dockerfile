@@ -37,7 +37,7 @@ RUN [ -n "$LINUXUSEROWNED" ] && chown 102 $LINUXUSEROWNED || true
 
 ENV VAR_LINUX_USER="www-data" \
     VAR_CONFIG_DIR="/etc/php" \
-    VAR_WWW_DIR="/www
+    VAR_WWW_DIR="/www" \
     VAR_FINAL_COMMAND=""
 
 #--------Generic template (don't edit)--------
